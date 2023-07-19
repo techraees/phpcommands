@@ -1,0 +1,8 @@
+Login and Register Page	
+	composer require laravel/ui
+	php artisan ui bootstrap --auth
+	npm install && npm run dev
+
+Dummy Data only users_Table
+	php artisan tinker
+	User::factory()->count(100)->create()
